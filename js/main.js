@@ -31,12 +31,11 @@ function calcRoute() {
     directionsService.route(request, function (result, status) {
         if (status == google.maps.DirectionsStatus.OK) {
 
-            //Get distance and time            
-                       var d=result.routes[0].legs[0].distance.value/1000;
+            var d=result.routes[0].legs[0].distance.value/1000;
             var n = d.toFixed(0);
-            sedano=((n*12)+350)+" - "+((n*12)+500);
+            sedano=((n*14)+350)+" - "+((n*14)+500);
             sedanr=2*((n*12)+350)+" - "+2*((n*12)+500);
-            suvo=((n*16)+350)+" - "+((n*16)+500);
+            suvo=((n*18)+350)+" - "+((n*18)+500);
             suvr=2*((n*16)+350)+" - "+2*((n*16)+500);
             traveller=(2*((n*18)+350))+" - "+(2*((n*18)+500));
            
