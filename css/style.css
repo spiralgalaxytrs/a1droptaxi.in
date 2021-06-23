@@ -1,15 +1,10 @@
-/*------------------------------------------------------------------
-Theme Name: Medenin - Medical & Health Website Template
-Version: 1.0
-Author: @surjithctly
-URL: https://themeforest.net/user/surjithctly/
--------------------------------------------------------------------*/
+
 /*------------------------------------------------------------------
 [TABLE OF CONTENTS]
 
     1. GLOBAL STYLES
     2. HOME PAGE
-        a. OUR TEAM
+        a. OUR TEAM 
         b. TESTIMONIALS
         c. FOOTER
     6. APPOINTMEMT
@@ -549,7 +544,7 @@ a:focus {
 }
 
 .container-custom {
-  max-width: 1124px;
+  max-width: 1000px;
 }
 
 .light {
@@ -2019,9 +2014,19 @@ a:focus {
 
 .our-team-slider .slick-dots li.slick-active button:before {
   color: #4d72d0;
+     position: relative;
+  flex: 0 0 100%;
+  width: 100%;
+  background-color: #f99;
+  counter-increment: item;
 }
 .our-team-slider .slick-dots li button:before {
   font-size: 9px;
+      position: relative;
+  padding-top: 75%;
+  filter: drop-shadow(0 0 10px #0003);
+  perspective: 100px;
+    
 }
 
 /* --------- Get a Consultant --------- */
@@ -2281,7 +2286,10 @@ footer {
     background-size: cover;
   }
 }
-
+.make-center{
+    align-content: center;
+    align-items: center;
+}
 .foot-contact-block {
   background: #33363a;
   padding: 40px 40px;
@@ -2326,6 +2334,7 @@ footer {
 
 .foot-link-box {
   margin: 25px 0;
+    max-width: 500px;
 }
 @media (min-width: 768px) {
   .foot-link-box {
@@ -3052,6 +3061,12 @@ BLOG
   bottom: -2px;
   left: 0;
 }
+/*
+.regular-search{
+    align-content: center;
+    align-items: center;
+}
+*/
 
 .blog-sidebar_wrap {
   padding: 30px 30px;
