@@ -34,7 +34,7 @@ if(strText==""||strText1==""||strText2==""||strText3==""||strText4==""||strText6
         request.open("post", url);
         request.send();
          //  replace
-            //var wnd = window.open("https://www.fast2sms.com/dev/bulk?authorization=tXGFnAr4LNYZM8Q9jwPVHxWdvs6eahl2qk5of7SzpRbOUEumITTnoiOFHqdCLhzJPgaxer2mpZ8UNEyf&sender_id=FSTSMS&message=https://a1droptaxi.com%0AContact No: 8015918900%0AHello "+strText+",%0AThank you for Booking with A1 Drop Taxi.Your "+strText2+" Booking has been Confirmed on "+strText4+".&language=english&route=p&numbers="+strText1);
+            var wnd = window.open("https://www.fast2sms.com/dev/bulk?authorization=tXGFnAr4LNYZM8Q9jwPVHxWdvs6eahl2qk5of7SzpRbOUEumITTnoiOFHqdCLhzJPgaxer2mpZ8UNEyf&sender_id=FSTSMS&message=https://a1droptaxi.com%0AContact No: 8015918900%0AHello "+strText+",%0AThank you for Booking with A1 Drop Taxi.Your "+strText2+" Booking has been Confirmed on "+strText4+".&language=english&route=p&numbers="+strText1);
 		//var wnd1=location.replace("bc.html","_self ");		      
                              // if(wnd){
                                     //  setTimeout(function () { wnd.close();}, 1800);
