@@ -32,29 +32,10 @@ if(strText==""||strText1==""||strText2==""||strText3==""||strText4==""||strText6
             const request = new XMLHttpRequest();
         const url = 'https://api.telegram.org/bot1641457962:AAGEETFtrtqexe3xRiFbeoXqKO6xoP9YnC0/sendMessage?chat_id=-1001516712828&text='+result;
         request.open("post", url);
-        request.send();
-         //  replace
-           // var wnd = window.open("https://www.fast2sms.com/dev/bulk?authorization=tXGFnAr4LNYZM8Q9jwPVHxWdvs6eahl2qk5of7SzpRbOUEumITTnoiOFHqdCLhzJPgaxer2mpZ8UNEyf&sender_id=FSTSMS&message=https://a1droptaxi.com%0AContact No: 8015918900%0AHello "+strText+",%0AThank you for Booking with A1 Drop Taxi.Your "+strText2+" Booking has been Confirmed on "+strText4+".&language=english&route=p&numbers="+strText1);
-		//var wnd1=location.replace("bc.html","_self ");		      
-                             // if(wnd){
-                                    //  setTimeout(function () { wnd.close();}, 1800);
-				      
-                           //   }
-		//setTimeout(function () { wnd.open();}, 2100);
-		
+        request.send();	
 			window.open('bc.html', '_self');	
         }
 
 });
 }       
-            /*  var xhttp = new XMLHttpRequest();
-         xhttp.open("GET", "https://www.fast2sms.com/dev/bulk?authorization=tXGFnAr4LNYZM8Q9jwPVHxWdvs6eahl2qk5of7SzpRbOUEumITTnoiOFHqdCLhzJPgaxer2mpZ8UNEyf&sender_id=FSTSMS&message=https://a1droptaxi.com%0AContact No: 8015918900%0AHello "+strText+",%0AThank you for Booking with A1 Drop Taxi.Your "+strText2+" Booking has been Confirmed on "+strText4+".&language=english&route=p&numbers="+strText1, true);        
-         xhttp.send();
-            tele();
-       //  window.open('bc.html', '_blank');
-        }
-    });}
-function testVariable() {
-    alert("hi");
-}
-*/
+
