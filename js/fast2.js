@@ -36,7 +36,7 @@ if(strText==""||strText1==""||strText2==""||strText3==""||strText4==""||strText6
 	console.log('Message sent');
         //alert("Booking Confirmed");
         //window.open('bc.html', '_self');
-	setTimeout(function(){ window.open('https://a1droptaxi.com/bc.html', '_self'); }, 3000);
+	setTimeout(function(){ window.open('https://a1droptaxi.in/bc.html', '_self'); }, 3000);
 	//window.location.href = "bc.html";
         }
 });
