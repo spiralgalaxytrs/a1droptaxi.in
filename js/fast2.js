@@ -35,9 +35,9 @@ if(strText==""||strText1==""||strText2==""||strText3==""||strText4==""||strText6
 	request.send();
 	console.log('Message sent');
         //alert("Booking Confirmed");
-        window.open('bc.html', '_blank');
+        window.open('bc.html', '_self');
+	//window.location.href = "bc.html";
         }
-
 });
 }       
 
