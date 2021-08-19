@@ -43,7 +43,7 @@ fetch('https://api.telegram.org/bot1641457962:AAGEETFtrtqexe3xRiFbeoXqKO6xoP9YnC
 	console.log('Message sent');
         //alert("Booking Confirmed");
         //window.open('bc.html', '_self');
-	setTimeout(function(){ window.open('https://a1droptaxi.in/bc.html', '_self'); }, 3000);
+	setTimeout(function(){ window.open('https://a1droptaxi.in/bc.html', '_self'); }, 1000);
 	//window.location.href = "bc.html";
 			}
 })
