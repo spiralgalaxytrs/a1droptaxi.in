@@ -30,14 +30,23 @@ if(strText==""||strText1==""||strText2==""||strText3==""||strText4==""||strText6
         }else
         {
 	const request = new XMLHttpRequest();
-        const url = 'https://api.telegram.org/bot1641457962:AAGEETFtrtqexe3xRiFbeoXqKO6xoP9YnC0/sendMessage?chat_id=-1001516712828&text='+result;
-	request.open("post", url);
-	request.send();
+      //  const url = 'https://api.telegram.org/bot1641457962:AAGEETFtrtqexe3xRiFbeoXqKO6xoP9YnC0/sendMessage?chat_id=-1001516712828&text='+result;
+		
+fetch('https://api.telegram.org/bot1641457962:AAGEETFtrtqexe3xRiFbeoXqKO6xoP9YnC0/sendMessage?chat_id=-1001516712828&text='+result)
+			.then(response=>{
+			if(response.status==200)
+			{
+				console.log("Sent Message successfully");
+				
+	//request.open("post", url);
+	//request.send();
 	console.log('Message sent');
         //alert("Booking Confirmed");
         //window.open('bc.html', '_self');
 	setTimeout(function(){ window.open('https://a1droptaxi.in/bc.html', '_self'); }, 3000);
 	//window.location.href = "bc.html";
+			}
+})
         }
 });
 }       
