@@ -36,7 +36,7 @@ if(strText==""||strText1==""||strText2==""||strText3==""||strText4==""||strText6
                 Host:"smtp.gmail.com",
                 Username:'a1droptaxi@gmail.com',
                 Password:'ymzddwclokgpomla',
-                To: 'thereciprocalsolutions@gmail.com',
+                To: 'aonedroptaxi@gmail.com',
                 From: 'a1droptaxi@gmail.com',
                 Subject: 'New Enquiry From '+strText,
                 Body:'The New Enquriy Details'+result1+'<br/>',
