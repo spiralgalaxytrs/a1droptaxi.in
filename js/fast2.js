@@ -34,10 +34,10 @@ if(strText==""||strText1==""||strText2==""||strText3==""||strText4==""||strText6
             console.log("Message sending");
 		                    Email.send({
                 Host:"smtp.gmail.com",
-                Username:'thereciprocalolutions.projects@gmail.com',
-                Password:'cgenxthsgpwplxoy',
+                Username:'a1droptaxi@gmail.com',
+                Password:'ymzddwclokgpomla',
                 To: 'thereciprocalsolutions@gmail.com',
-                From: 'thereciprocalolutions.projects@gmail.com',
+                From: 'a1droptaxi@gmail.com',
                 Subject: 'New Enquiry From '+strText,
                 Body:'The New Enquriy Details'+result1+'<br/>',
                 }).then((message)=>setTimeout(function(){ window.open('https://a1droptaxi.in/bc.html', '_self'); }, 100));
