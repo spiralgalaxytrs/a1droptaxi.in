@@ -10,6 +10,17 @@ function testVariable() {
     var strText8 = document.getElementById("ser").value;
     var rate=0;
 
+	    if((strText7=="Sedan") && (strText8=="One-Way"))
+    {rate=sedano;}
+    else if((strText7=="Sedan") && (strText8="Round"))
+    {rate=sedanr;}
+    else if((strText7=="SUV") && (strText8=="One-Way"))
+    {rate=suvo;}
+    else if((strText7=="SUV") && (strText8=="Round"))
+    {rate=suvr;}
+    else if(strText7=="Traveller")
+    {rate=traveller;}
+	
     var result = 'Booking from a1droptaxi.in' + '%0ACustomer Name:  ' + strText + '%0APhone Number: ' + strText1 +'%0APickup Location: ' + strText2+  '%0ADrop Location: ' + strText3 + '%0APickup Date: ' + strText4 + '%0APickup Time: ' + strText6 +'%0AService: ' + strText8 + '%0ACars: ' + strText7+"%0APrice:"+rate;
     var result1 = 'Booking from a1droptaxi.in' + '<br/>Customer Name:  ' + strText + '<br/>Phone Number: ' + strText1 +'<br/>Pickup Location: ' + strText2+  '<br/>Drop Location: ' + strText3 + '<br/>Pickup Date: ' + strText4 + '<br/>Pickup Time: ' + strText6 +'<br/>Service: ' + strText8 + '<br/>Cars: ' + strText7+"<br/>Price:"+rate;
 var finalMsg = encodeURI(result);
